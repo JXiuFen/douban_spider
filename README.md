@@ -17,3 +17,8 @@
 
 程序运行中，在爬取指定的标签下的所有图书
 ![爬取中](https://github.com/JXiuFen/-/blob/master/%E7%88%AC%E5%8F%96%E4%B8%AD.png?raw=true)
+
+
+
+把爬取到的数据，保存到MySQL数据库中
+![保存数据](https://github.com/JXiuFen/-/blob/master/%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98.png?raw=true)
