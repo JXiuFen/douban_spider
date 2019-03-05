@@ -9,5 +9,5 @@
 
 
 
-#程序运行后，手动输入你要爬取的图书标签
-!(https://github.com/JXiuFen/-/blob/master/%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C.png?raw=true)
+程序运行后，手动输入你要爬取的图书标签
+![程序运行](https://github.com/JXiuFen/-/blob/master/%E4%BB%A3%E7%A0%81%E8%BF%90%E8%A1%8C.png?raw=true)
