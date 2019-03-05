@@ -132,9 +132,6 @@ def save_mysql(book_name,author,press,published,number_page,pricing,score,commen
         # 获取游标
         cursor = db.cursor()
 
-        # 写入数据
-        #insert_sql = """INSERT INTO douban_book_foreign_literature (书名,作者,出版社,出版年,页数,定价,评分,评论人数,原书名,书封面的url)VALUES (%s, %s, %s, %s,%s,%s,%s,%s,%s,%s)"""
-
         #判断数据库中是否已经有这条数据啦，如果有则忽略，如果没有则插入数据
         insert_sql=""" INSERT INTO douban_book_foreign_literature(书名,作者,出版社,出版年,页数,定价,评分,评论人数,原书名,书封面的url) SELECT %s, %s, %s, %s,%s,%s,%s,%s,%s,%s FROM DUAL WHERE NOT EXISTS(SELECT * FROM douban_book_foreign_literature WHERE 书名 = %s)"""
         try:
